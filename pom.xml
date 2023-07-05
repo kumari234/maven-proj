@@ -28,6 +28,19 @@
     </dependency>
   </dependencies>
 
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-13-178-releases</name>
+        <url>http://13.233.193.10:8081/artifactory/myrepo</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>ip-172-31-13-178-snapshots</name>
+        <url>http://13.233.193.10:8081/artifactory/myrepo</url>
+    </snapshotRepository>
+</distributionManagement>
+  
   <build>
     <finalName>proj1</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
