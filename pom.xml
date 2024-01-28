@@ -13,6 +13,19 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>1de3694a3c8d-releases</name>
+        <url>http://3.111.105.93:8081/artifactory/myrepo1</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>1de3694a3c8d-snapshots</name>
+        <url>http://3.111.105.93:8081/artifactory/myrepo1</url>
+    </snapshotRepository>
+</distributionManagement>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
